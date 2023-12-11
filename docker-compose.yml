@@ -2,25 +2,25 @@
 version: "3.8"
 services:
   movies:
-    image: vamsipradeep0109/movies:latest
+    image: vamsipradeep0109/movies
     ports:
       - 81:80
     deploy:
       replicas: 3
   recharge:
-    image: vamsipradeep0109/recharge:latest
+    image: vamsipradeep0109/recharge
     ports:
       - 82:80
     deploy:
       replicas: 3
   dth:
-    image: vamsipradeep0109/dth:latest
+    image: vamsipradeep0109/dth
     ports:
       - 83:80
     deploy:
       replicas: 3
   metro:
-    image: vamsipradeep0109/metro:latest
+    image: vamsipradeep0109/metro
     ports:
       - 84:80
     deploy:
